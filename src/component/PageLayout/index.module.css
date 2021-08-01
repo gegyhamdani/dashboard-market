@@ -1,0 +1,13 @@
+.container {
+  height: 100%;
+}
+
+.site-layout {
+  background: #f7f7f7;
+}
+
+.content-container {
+  margin: 20px 16px;
+  padding: 24px;
+  min-height: 360px;
+}
