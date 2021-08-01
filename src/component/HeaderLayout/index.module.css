@@ -3,7 +3,7 @@
   box-shadow: 0px 3px 6px #00000029;
   padding: 0 40px !important;
   z-index: 1;
-  height: 80px;
+  height: 70px;
 }
 
 .row {
@@ -75,19 +75,19 @@
 }
 
 .username--secondary {
-  color: #8C8C8C;
+  color: #8c8c8c;
   font-weight: 100;
   font-size: 12px;
 }
 
 .user--button {
   background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 
 .user--profile-icon {
@@ -105,7 +105,7 @@
 
   .row--logo {
     margin-left: -8px;
-    border-bottom: 1px solid #8C8C8C;
+    border-bottom: 1px solid #8c8c8c;
   }
 
   .logo--copy p {
