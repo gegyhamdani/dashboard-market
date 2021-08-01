@@ -23,7 +23,7 @@ const SiderLayout = () => {
         <Menu.Item
           key="1"
           className={styles["menu--item"]}
-          icon={<img src="./dashboard-icon.png" alt="dashboard" className={styles["menu--image"]} />}
+          icon={<img src="./assets/icon/dashboard-icon.png" alt="dashboard" className={styles["menu--image"]} />}
         >
           Dashboard
         </Menu.Item>
