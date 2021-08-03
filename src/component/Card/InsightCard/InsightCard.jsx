@@ -1,4 +1,5 @@
 import { UpOutlined } from "@ant-design/icons";
+
 import BaseCard from "../BaseCard";
 
 import styles from "./index.module.css";

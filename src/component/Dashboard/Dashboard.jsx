@@ -1,4 +1,6 @@
 import InsightCard from "../Card/InsightCard";
+import SalesCard from "../Card/SalesCard";
+
 import styles from "./index.module.css";
 
 const Dashboard = () => (
@@ -6,6 +8,7 @@ const Dashboard = () => (
     <h1 className={styles.title}>Dashboard</h1>
     <div className={styles["market--wrapper"]}>
       <InsightCard />
+      <SalesCard />
     </div>
   </div>
 );
