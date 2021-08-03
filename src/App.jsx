@@ -8,9 +8,7 @@ import "./App.css";
 const App = () => (
   <div className="container">
     <PageLayout headerChildren={<HeaderLayout />} siderChildren={<SiderLayout />}>
-      <>
-        <Dashboard />
-      </>
+      <Dashboard />
     </PageLayout>
   </div>
 );
