@@ -1,3 +1,3 @@
-import CardBase from "./CardBase";
+import BaseCard from "./BaseCard";
 
-export default CardBase;
+export default BaseCard;

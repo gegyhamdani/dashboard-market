@@ -1,0 +1,44 @@
+.card {
+    background-color: #37B04C;
+    width: 100%;
+}
+
+.card--wrapper {
+    display: flex;
+    padding: 10px 16px;
+    justify-content: space-between;
+}
+
+.card--wrapper h2 {
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.card--helper {
+    display: flex;
+    align-items: center;
+}
+
+.card--help-image {
+    width: auto;
+    height: 22px;
+    margin-right: 6px;
+}
+
+.card--button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.card--icon {
+    margin-left: 10px;
+    color: #FFFFFF;
+}

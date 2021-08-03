@@ -25,3 +25,7 @@ body {
 .ant-menu-item::after {
   border-right: 3px solid #999999 !important
 }
+
+.ant-card-body {
+  padding: 0 !important;
+}
