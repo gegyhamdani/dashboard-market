@@ -9,9 +9,12 @@
   justify-content: space-between;
 }
 
-.card--header p {
-  color: #a1a0ae;
+.card--header h4 {
+  color: #4D4F5C;
   margin: 0;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: lighter;
 }
 
 .card--icon {
@@ -38,6 +41,7 @@
 .card--data p {
   color: #a1a0ae;
   font-size: 10px;
+  margin: 0;
 }
 
 .card--data-info {

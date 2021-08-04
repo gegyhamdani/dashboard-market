@@ -7,7 +7,7 @@ import styles from "./index.module.css";
 const SalesCard = () => (
   <BaseCard className={styles.card} isShowBorder isShowBoxShadow>
     <div className={styles["card--header"]}>
-      <p>Sales Turnover</p>
+      <h4>Sales Turnover</h4>
       <MoreOutlined style={{ fontSize: "20px" }} />
     </div>
     <div className={styles["card--body"]}>
