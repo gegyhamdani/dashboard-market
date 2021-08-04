@@ -5,7 +5,7 @@ import BaseCard from "../BaseCard";
 import styles from "./index.module.css";
 
 const ProductCard = ({ highlight }) => (
-  <BaseCard className={`${styles.card} ${highlight && styles.highlight}`}>
+  <BaseCard className={`${styles.card} ${highlight && styles.highlight}`} isShowBorder>
     <div className={styles.container}>
       <img
         src="./assets/icon/sales-icon.png"

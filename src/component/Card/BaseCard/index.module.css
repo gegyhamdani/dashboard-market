@@ -4,7 +4,8 @@
 }
 
 .border {
-  border: 0.5px solid #cdcdcd;
+  border: 1px solid rgba(205, 205, 205, 0.3);
+  border-radius: 4px;
 }
 
 .box-shadow {
