@@ -13,3 +13,8 @@
 .market--wrapper {
   margin-top: 48px;
 }
+
+.sales--wrapper {
+  display: flex;
+  flex-direction: row;
+}
