@@ -1,3 +1,4 @@
+import ChartCard from "../Card/ChartCard";
 import InsightCard from "../Card/InsightCard";
 import SalesCard from "../Card/SalesCard";
 import SKUCard from "../Card/SKUCard";
@@ -11,6 +12,7 @@ const Dashboard = () => (
       <InsightCard />
       <SalesCard />
       <div className={styles["sales--wrapper"]}>
+        <ChartCard />
         <SKUCard title="BEST SELLING SKU" />
         <SKUCard title="TOP COMPETITOR SKU" />
       </div>
