@@ -1,6 +1,6 @@
 import InsightCard from "../Card/InsightCard";
 import SalesCard from "../Card/SalesCard";
-import ProductCard from "../Card/ProductCard";
+import SKUCard from "../Card/SKUCard";
 
 import styles from "./index.module.css";
 
@@ -11,8 +11,8 @@ const Dashboard = () => (
       <InsightCard />
       <SalesCard />
       <div className={styles["sales--wrapper"]}>
-        <ProductCard title="BEST SELLING SKU" />
-        <ProductCard title="TOP COMPETITOR SKU" />
+        <SKUCard title="BEST SELLING SKU" />
+        <SKUCard title="TOP COMPETITOR SKU" />
       </div>
     </div>
   </div>

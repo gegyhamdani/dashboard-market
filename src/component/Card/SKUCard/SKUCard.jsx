@@ -5,7 +5,7 @@ import BaseCard from "../BaseCard";
 
 import styles from "./index.module.css";
 
-const ProductCard = ({ title }) => (
+const SKUCard = ({ title }) => (
   <BaseCard className={styles.card} isShowBorder isShowBoxShadow>
     <div className={styles["card--header"]}>
       <h4>{title}</h4>
@@ -15,12 +15,12 @@ const ProductCard = ({ title }) => (
   </BaseCard>
 );
 
-ProductCard.propTypes = {
+SKUCard.propTypes = {
   title: PropTypes.string
 };
 
-ProductCard.defaultProps = {
+SKUCard.defaultProps = {
   title: ""
 };
 
-export default ProductCard;
+export default SKUCard;
