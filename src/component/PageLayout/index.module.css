@@ -4,6 +4,7 @@
 
 .site-layout {
   background: #f7f7f7;
+  overflow: auto;
 }
 
 .content-container {
