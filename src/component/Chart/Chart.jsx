@@ -1,20 +1,8 @@
 import { Bar } from "react-chartjs-2";
 
-const rand = () => Math.round(Math.random() * 100);
+import chart from "../../const/chart";
 
-const options = {
-  scales: {
-    xAxes: {
-      display: false
-    }
-  },
-  plugins: {
-    legend: {
-      display: true,
-      position: "bottom"
-    }
-  }
-};
+const rand = () => Math.round(Math.random() * 100);
 
 const data = {
   labels: ["January", "February", "March", "April", "May", "June", "July"],
@@ -50,6 +38,6 @@ const data = {
   ]
 };
 
-const Chart = () => <Bar data={data} options={options} />;
+const Chart = () => <Bar data={data} options={chart.chartOptions} />;
 
 export default Chart;
