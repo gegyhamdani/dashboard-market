@@ -3,10 +3,11 @@ import PropTypes from "prop-types";
 
 import styles from "./index.module.css";
 
-const BaseCard = ({ children, className, style, isShowBorder, isShowBoxShadow }) => (
+const BaseCard = ({ children, className, style, isShowBorder, isShowBoxShadow, onClick }) => (
   <Card
     style={style}
     className={`${styles.card__wrapper} ${className} ${isShowBorder && styles.border} ${isShowBoxShadow && styles["box-shadow"]}`}
+    onClick={onClick}
   >
     {children}
   </Card>
@@ -17,7 +18,8 @@ BaseCard.propTypes = {
   className: PropTypes.string,
   style: PropTypes.shape({}),
   isShowBorder: PropTypes.bool,
-  isShowBoxShadow: PropTypes.bool
+  isShowBoxShadow: PropTypes.bool,
+  onClick: PropTypes.func
 };
 
 BaseCard.defaultProps = {
@@ -25,7 +27,8 @@ BaseCard.defaultProps = {
   className: null,
   style: null,
   isShowBorder: false,
-  isShowBoxShadow: false
+  isShowBoxShadow: false,
+  onClick: () => {}
 };
 
 export default BaseCard;

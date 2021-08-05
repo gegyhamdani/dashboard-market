@@ -3,6 +3,11 @@
   height: 100%;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .title {
   color: #707070c4;
   font-size: 40px;

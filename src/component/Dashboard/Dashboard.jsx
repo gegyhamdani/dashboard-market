@@ -1,3 +1,4 @@
+import DatePickerCard from "../Card/DatePickerCard";
 import ChartCard from "../Card/ChartCard";
 import InsightCard from "../Card/InsightCard";
 import SalesCard from "../Card/SalesCard";
@@ -7,7 +8,11 @@ import styles from "./index.module.css";
 
 const Dashboard = () => (
   <div className={styles.container}>
-    <h1 className={styles.title}>Dashboard</h1>
+    <div className={styles.header}>
+      <h1 className={styles.title}>Dashboard</h1>
+      <DatePickerCard />
+    </div>
+
     <div className={styles["market--wrapper"]}>
       <InsightCard />
       <SalesCard />

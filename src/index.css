@@ -29,3 +29,30 @@ body {
 .ant-card-body {
   padding: 0 !important;
 }
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__navigation {
+  top: 8px !important;
+}
+
+.react-datepicker__header  {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+  width: 1.7em !important;
+  line-height: 1.7em !important;
+  margin: 0.166rem !important;
+  font-size: 12px !important;
+}
+
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range {
+  background: #D6EDDA !important;
+  border-radius: 50% !important;
+  font-weight: bold !important;
+  color: #37b04c !important;
+}
