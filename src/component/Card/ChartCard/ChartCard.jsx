@@ -1,5 +1,6 @@
 import { MoreOutlined } from "@ant-design/icons";
 
+import Chart from "../../Chart";
 import BaseCard from "../BaseCard";
 
 import styles from "./index.module.css";
@@ -12,7 +13,9 @@ const ChartCard = () => (
         <MoreOutlined style={{ fontSize: "20px" }} />
       </div>
     </div>
-    <div className={styles["card--body"]} />
+    <div className={styles["card--body"]}>
+      <Chart />
+    </div>
   </BaseCard>
 );
 
