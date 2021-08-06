@@ -5,6 +5,7 @@ import SalesCard from "../Card/SalesCard";
 import SKUCard from "../Card/SKUCard";
 
 import styles from "./index.module.css";
+import market from "../../const/market";
 
 const Dashboard = () => (
   <div className={styles.container}>
@@ -18,8 +19,8 @@ const Dashboard = () => (
       <SalesCard />
       <div className={styles["sales--wrapper"]}>
         <ChartCard />
-        <SKUCard title="BEST SELLING SKU" />
-        <SKUCard title="TOP COMPETITOR SKU" />
+        <SKUCard title="BEST SELLING SKU" products={market.bestSelling} />
+        <SKUCard title="TOP COMPETITOR SKU" products={market.topCompetitor} />
       </div>
     </div>
   </div>

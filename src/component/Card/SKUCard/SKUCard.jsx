@@ -6,7 +6,7 @@ import ProductCard from "../ProductCard";
 
 import styles from "./index.module.css";
 
-const SKUCard = ({ title }) => (
+const SKUCard = ({ title, products }) => (
   <BaseCard className={styles.card} isShowBorder isShowBoxShadow>
     <div className={styles["card--header"]}>
       <h4>{title}</h4>
@@ -15,22 +15,23 @@ const SKUCard = ({ title }) => (
       </div>
     </div>
     <div className={styles["card--body"]}>
-      <ProductCard highlight />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
+      {products
+        .sort((a, b) => b.sold - a.sold)
+        .map((product, i) => (
+          <ProductCard highlight={i === 0} name={product.name} img={product.img} price={product.price} sold={product.sold} />
+        ))}
     </div>
   </BaseCard>
 );
 
 SKUCard.propTypes = {
-  title: PropTypes.string
+  title: PropTypes.string,
+  products: PropTypes.arrayOf(PropTypes.shape({}))
 };
 
 SKUCard.defaultProps = {
-  title: ""
+  title: "",
+  products: []
 };
 
 export default SKUCard;
