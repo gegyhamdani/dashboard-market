@@ -2,6 +2,8 @@
 
 A dashboard market that organizes and presents complex data with easy to digest visualization
 
+Demo: https://dashboard-market.netlify.app/
+
 ### Build with
 
 <a href="https://reactjs.org/" rel="ReactJS">
