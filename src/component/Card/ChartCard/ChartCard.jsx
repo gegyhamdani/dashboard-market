@@ -6,6 +6,7 @@ import Chart from "../../Chart";
 import BaseCard from "../BaseCard";
 
 import styles from "./index.module.css";
+import Legend from "../../Legend";
 
 const { Option } = Select;
 
@@ -26,6 +27,12 @@ const ChartCard = () => (
     </div>
     <div className={styles["card--body"]}>
       <Chart />
+    </div>
+    <div className={styles["card--footer"]}>
+      <Legend text="Nett" backgroundColor="#37B04C" />
+      <Legend text="Gross" backgroundColor="#289E45" />
+      <Legend text="Average Purchase Value" backgroundColor="#7AE28C" />
+      <Legend text="Unit Per Transaction" backgroundColor="#707070" />
     </div>
   </BaseCard>
 );

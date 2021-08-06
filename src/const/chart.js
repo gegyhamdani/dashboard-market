@@ -8,8 +8,7 @@ const chartOptions = {
   },
   plugins: {
     legend: {
-      display: true,
-      position: "bottom"
+      display: false
     }
   },
   barThickness: 40
