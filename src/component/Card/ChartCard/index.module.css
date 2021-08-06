@@ -26,8 +26,16 @@
   margin-top: 6px;
 }
 
+.card--wrapper__action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .card--wrapper__icon {
+  margin-top: 4px;
   margin-right: -8px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 640px) {

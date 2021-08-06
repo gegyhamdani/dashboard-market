@@ -28,6 +28,7 @@
 
 .card--wrapper__icon {
   margin-right: -8px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 640px) {
