@@ -9,6 +9,11 @@ const chartOptions = {
   plugins: {
     legend: {
       display: false
+    },
+    tooltip: {
+      callbacks: {
+        title: () => "Date/Month/Year"
+      }
     }
   },
   barThickness: 30

@@ -18,7 +18,9 @@ const SKUCard = ({ title, products }) => (
       {products
         .sort((a, b) => b.sold - a.sold)
         .map((product, i) => (
-          <ProductCard highlight={i === 0} name={product.name} img={product.img} price={product.price} sold={product.sold} />
+          <div key={i.toString()}>
+            <ProductCard highlight={i === 0} name={product.name} img={product.img} price={product.price} sold={product.sold} />
+          </div>
         ))}
     </div>
   </BaseCard>
