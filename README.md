@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+## Dashboard Market
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A dashboard market that organizes and presents complex data with easy to digest visualization
+
+### Build with
+
+<a href="https://reactjs.org/" rel="ReactJS">
+  <img src="https://pedrorijo.com/assets/img/react-logo.png" alt="reactJS" width="200"/>
+</a>
+
+### Installations
+
+- clone: `https://github.com/gegyhamdani/covid-tracker.git`
+- install depandencies: `npm install`
+
+### How To Use
+
+- run web app: `npm start`, Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
 
 ## Available Scripts
 
