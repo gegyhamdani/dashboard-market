@@ -1,13 +1,12 @@
 import { Bar } from "react-chartjs-2";
 
 import chart from "../../const/chart";
+import { randNumber } from "../../helpers/numberHelper";
 
-const rand = () => Math.round(Math.random() * 100);
-
-const upvData = [rand(), rand(), rand(), rand(), rand(), rand(), rand()];
-const apvData = [rand(), rand(), rand(), rand(), rand(), rand(), rand()];
-const nettData = [rand(), rand(), rand(), rand(), rand(), rand(), rand()];
-const grossData = [rand(), rand(), rand(), rand(), rand(), rand(), rand()];
+const upvData = [...Array(7).keys()].map(() => randNumber(100));
+const apvData = [...Array(7).keys()].map(() => randNumber(100));
+const nettData = [...Array(7).keys()].map(() => randNumber(100));
+const grossData = [...Array(7).keys()].map(() => randNumber(100));
 
 const getTotalValuePerLabel = () => {
   const maxLength = upvData.length;
