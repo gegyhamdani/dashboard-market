@@ -38,6 +38,6 @@ const data = {
   ]
 };
 
-const Chart = () => <Bar data={data} options={chart.chartOptions} />;
+const Chart = () => <Bar data={data} options={chart.chartOptions} height="100%" />;
 
 export default Chart;

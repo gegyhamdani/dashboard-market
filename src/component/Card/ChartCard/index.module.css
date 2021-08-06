@@ -2,6 +2,8 @@
   width: 55%;
   padding: 24px 16px;
   margin: 5px;
+  max-height: 500px;
+  overflow: auto;
 }
 
 .card--header {
@@ -23,7 +25,7 @@
 .card--body {
   display: flex;
   flex-direction: column;
-  margin-top: 6px;
+  margin: 16px 0;
 }
 
 .card--wrapper__action {
@@ -39,7 +41,6 @@
 }
 
 .card--footer {
-  margin-top: 12px;
   display: flex;
   flex-direction: row;
   align-items: center;

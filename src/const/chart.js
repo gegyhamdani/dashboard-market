@@ -11,7 +11,7 @@ const chartOptions = {
       display: false
     }
   },
-  barThickness: 40
+  barThickness: 30
 };
 
 export default { chartOptions };

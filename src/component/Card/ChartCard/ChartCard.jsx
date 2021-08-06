@@ -15,7 +15,7 @@ const ChartCard = () => (
     <div className={styles["card--header"]}>
       <h4>AVERAGE PURCHASE VALUE</h4>
       <div className={styles["card--wrapper__action"]}>
-        <Select defaultValue="sixmonth" style={{ width: 150, marginRight: "5px" }}>
+        <Select defaultValue="sixmonth" style={{ width: 130, marginRight: "5px" }}>
           <Option value="sixmonth">Last 6 months</Option>
           <Option value="lastmonth">Last months</Option>
           <Option value="lastweeks">Last weeks</Option>
